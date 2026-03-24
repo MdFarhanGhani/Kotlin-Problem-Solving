@@ -1,0 +1,13 @@
+fun sayHello(name:String)
+{
+    println("Hello, $name !")
+
+}
+
+//Passing argument to the Function
+
+fun main()
+{
+    val personName = "FARHAN"
+    sayHello(personName)
+}
