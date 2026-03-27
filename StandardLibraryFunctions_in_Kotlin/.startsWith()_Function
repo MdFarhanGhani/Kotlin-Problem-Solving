@@ -1,1 +1,16 @@
+fun main()
+{
+    val textA = "Hello World !"
+    val textB = "What is name ?"
+    val textC = "Let's go"
+    
+    println(textA)
+    println(textB)
+    println(textC)
+    
+    println(textA.startsWith("Hello"))
+    println(textB.startsWith("Farhan"))
+    println(textC.startsWith("Let's"))
+    
+}
 
