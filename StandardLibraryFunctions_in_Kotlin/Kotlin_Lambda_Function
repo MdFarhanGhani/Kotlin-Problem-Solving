@@ -1,0 +1,11 @@
+fun main()
+{
+val coldCoffeeVariable = coldCoffee
+
+coldCoffeeVariable()
+    
+}   
+
+val coldCoffee={
+    println("I took a Cold Coffee")
+}
