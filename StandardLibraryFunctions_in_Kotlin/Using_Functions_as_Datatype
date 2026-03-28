@@ -1,0 +1,18 @@
+fun main()
+{
+val milkShakeVariable=chooseItem()
+
+milkShakeVariable()
+}   
+
+val coldCoffee:()->Unit = {
+    println("I took a Cold Coffee")
+}
+
+val milkShake:()->Unit={
+    println("I took a Milk Shake.")
+}
+
+fun chooseItem():()->Unit{
+    return milkShake
+}
