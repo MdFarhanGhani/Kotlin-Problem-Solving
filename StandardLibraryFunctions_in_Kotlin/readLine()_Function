@@ -1,0 +1,11 @@
+fun main()
+{
+    //Prompting user
+    println("Enter your name : ")
+    
+    //Storing value in variable
+    val name = readLine()
+    
+    //Showing output
+    println("Hello, $name! Welcome to our program")   
+}    
